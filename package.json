@@ -1,0 +1,36 @@
+{
+  "name": "imatch-cli-number-guessing-game",
+  "version": "1.0.0",
+  "description": "This is a simple command-line game. In this game your objective is to guess the number that the computer has randomly selected. If your guess matches the computer's number, you emerge victorious!",
+  "main": "game.js",
+  "type": "module",
+  "bin": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SyedAhmadShaan/cli-number-guessing-game.git"
+  },
+  "keywords": [
+    "\"number",
+    "guessing",
+    "game\"",
+    "\"cli",
+    "based",
+    "game\"",
+    "\"game\""
+  ],
+  "author": "Syed Ahmad Shaan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SyedAhmadShaan/cli-number-guessing-game/issues"
+  },
+  "homepage": "https://github.com/SyedAhmadShaan/cli-number-guessing-game#readme",
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
