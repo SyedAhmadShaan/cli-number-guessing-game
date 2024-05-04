@@ -13,8 +13,8 @@ const answer = await inquirer.prompt([
 console.log(answer);
 //3. Check if the user guessed the number correctly
 if (randomNo === answer.userInput) {
-    console.log("You won");
+    console.log("You guessed the number correctly ");
 }
 else {
-    console.log("You lost");
+    console.log("You guessed the number wrongly");
 }
